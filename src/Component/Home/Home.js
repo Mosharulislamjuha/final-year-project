@@ -1,12 +1,14 @@
 import React from 'react'
+import Banner from '../Banner/Banner';
 import Front from '../Front/Front';
-import Midle from '../Midle/Midle';
+import Middle from '../Middle/Middle';
 
 const Home = () => {
     return(
         <div>
             <Front/>
-            <Midle/>
+            <Middle/>
+            <Banner/>
         </div>
     )
 }
