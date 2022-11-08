@@ -11,7 +11,7 @@ export default function Front() {
 			<div  className="top-bar">
 				<div  className="content-topbar flex-sb-m h-full container">
 					<div  className="left-top-bar">
-						Free shipping for standard order over $100
+						Free shipping for standard order over 10000 TAKA
 					</div>
 
 					<div  className="right-top-bar flex-w h-full">
@@ -28,7 +28,7 @@ export default function Front() {
 						</a>
 
 						<a href="/"  className="flex-c-m trans-04 p-lr-25">
-							USD
+							TAKA
 						</a>
 					</div>
 				</div>
@@ -56,16 +56,17 @@ export default function Front() {
 							</li>
 
 							<li>
-								<Link to={"/banner"}>banner</Link>
+								<Link to={"/banner"}>Product</Link>
 								
 							</li>
 
 							<li  className="label1" data-label1="hot">
-								<a href="shoping-cart.html">Features</a>
+								<a href="shoping-cart.html">Shop</a>
 							</li>
 
 							<li>
-								<a href="blog.html">Blog</a>
+							<Link to={"/checkout"}>Pages</Link>
+								
 							</li>
 
 							<li>
